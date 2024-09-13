@@ -1952,7 +1952,8 @@ section {
   }
 
   .about .about-img {
-    min-height: 270px !important;
+    min-height: 285px !important;
+    margin-top: 30px !important;
   }
 
   .about .our-story {
