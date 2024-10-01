@@ -46,311 +46,304 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.php" <?php if ($page == 'home')
-            echo 'class="active"' ?>>Home</a></li>
-            <li><a href="about.php" <?php if ($page == 'about')
-            echo 'class="active"' ?>>About Us</a></li>
-            <li><a href="projects.php" <?php if ($page == 'gallery')
-            echo 'class="active"' ?>>Projects</a></li>
-            <li><a href="patientproject.php" <?php if ($page == 'patient')
-            echo 'class="active"' ?>>Patient Projects</a></li>
-            <li><a href="./gallery.php" <?php if ($page == 'photo')
-            echo 'class="active"' ?>>Photo Gallery</a></li>
-            <li><a href="event.php" <?php if ($page == 'event')
-            echo 'class="active"' ?>>Events</a></li>
-            <li><a href="contact.php" <?php if ($page == 'contact')
-            echo 'class="active"' ?>>Contact Us</a></li>
-          </ul>
-        </nav><!-- .navbar -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="patientproject.html">Patient Projects</a></li>
+          <li><a href="./gallery.html">Photo Gallery</a></li>
+          <li><a href="event.html">Events</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div id="hero" class="breadcrumbs d-flex align-items-center" style="background-image: url('./image/project.webp');">
+      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+
+        <h2>Projects</h2>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Projects</li>
+        </ol>
 
       </div>
-    </header>
+    </div><!-- End Breadcrumbs -->
 
-    <main id="main">
+    <!-- ======= Our Projects Section ======= -->
+    <section id="projects" class="projects">
+      <div class="container" data-aos="fade-up">
 
-      <!-- ======= Breadcrumbs ======= -->
-      <div id="hero" class="breadcrumbs d-flex align-items-center" style="background-image: url('./image/project.webp');">
-        <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
+          data-portfolio-sort="original-order">
 
-          <h2>Projects</h2>
-          <ol>
-            <li><a href="index.php">Home</a></li>
-            <li>Projects</li>
-          </ol>
+          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-it">It</li>
+            <li data-filter=".filter-mechanical">Mechanical</li>
+            <li data-filter=".filter-agriculture">Agriculture</li>
+            <li data-filter=".filter-scince">Scince</li>
+          </ul><!-- End Projects Filters -->
 
-        </div>
-      </div><!-- End Breadcrumbs -->
+          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-      <!-- ======= Our Projects Section ======= -->
-      <section id="projects" class="projects">
-        <div class="container" data-aos="fade-up">
-
-          <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
-            data-portfolio-sort="original-order">
-
-            <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-it">It</li>
-              <li data-filter=".filter-mechanical">Mechanical</li>
-              <li data-filter=".filter-agriculture">Agriculture</li>
-              <li data-filter=".filter-scince">Scince</li>
-            </ul><!-- End Projects Filters -->
-
-            <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-it">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/it_img1.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>it 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/it_img1.webp" title="it 1" data-gallery="portfolio-gallery-it"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-mechanical">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/img8.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>mechanical 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/img8.webp" title="mechanical 1" data-gallery="portfolio-gallery-mechanical"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-agriculture">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/agriculture_img1.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>agriculture 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/agriculture_img1.webp" title="agriculture 1"
-                      data-gallery="portfolio-gallery-agriculture" class="glightbox preview-link"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-scince">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/science_img1.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>scince 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/science_img1.webp" title="agriculture 1"
-                      data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-it">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/it_img2.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>it 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/it_img2.webp" title="it 2" data-gallery="portfolio-gallery-it"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-mechanical">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/img12.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>mechanical 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/img12.webp" title="mechanical 2" data-gallery="portfolio-gallery-mechanical"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-agriculture">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/agriculture_img2.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>agriculture 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/agriculture_img2.webp" title="agriculture 2"
-                      data-gallery="portfolio-gallery-agriculture" class="glightbox preview-link"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-scince">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/science_img2.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>scince 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/science_img2.webp" title="agriculture 2"
-                      data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-it">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/it_img3.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>it 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/it_img3.webp" title="it 3" data-gallery="portfolio-gallery-it"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-mechanical">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/img17.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>mechanical 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/img17.webp" title="mechanical 3" data-gallery="portfolio-gallery-mechanical"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-agriculture">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/agriculture_img3.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>agriculture 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/agriculture_img3.webp" title="agriculture 2"
-                      data-gallery="portfolio-gallery-agriculture" class="glightbox preview-link"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-scince">
-                <div class="portfolio-content h-100">
-                  <img src="./image/projects/science_img3.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>scince 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="./image/projects/science_img3.webp" title="agriculture 3"
-                      data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.php" title="More Details" class="details-link"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div><!-- End Projects Item -->
-
-            </div><!-- End Projects Container -->
-
-          </div>
-
-        </div>
-      </section><!-- End Our Projects Section -->
-
-    </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-
-      <div class="footer-content position-relative">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-lg-4 col-md-6">
-              <div class="footer-info">
-                <h3>JISCE IDEA-Lab</h3>
-                <p>
-                  Block A, Phase III,
-                  Kalyani, Nadia - 741235 West Bengal<br>
-                  <strong>Phone:</strong> 033 2582 2138<br>
-                  <strong>Admission:</strong>033 2580 8640 / 033 2580 8560 / 9432011490 / 8697743363<br>
-                  <strong>Email:</strong>info.jiscollege@jisgroup.org<br>
-                  <strong>Website:</strong> www.jiscollege.ac.in<br>
-                </p>
-                <div class="social-links d-flex mt-3">
-                  <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-                  <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-                  <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
-                  <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-it">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/it_img1.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>it 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/it_img1.webp" title="it 1" data-gallery="portfolio-gallery-it"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End footer info column-->
+            </div><!-- End Projects Item -->
 
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Project Gallery</a></li>
-                <li><a href="#">Patient Projects</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
-            </div><!-- End footer links column-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-mechanical">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/img8.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>mechanical 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/img8.webp" title="mechanical 1" data-gallery="portfolio-gallery-mechanical"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-agriculture">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/agriculture_img1.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>agriculture 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/agriculture_img1.webp" title="agriculture 1"
+                    data-gallery="portfolio-gallery-agriculture" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-scince">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/science_img1.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>scince 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/science_img1.webp" title="agriculture 1"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-it">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/it_img2.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>it 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/it_img2.webp" title="it 2" data-gallery="portfolio-gallery-it"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-mechanical">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/img12.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>mechanical 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/img12.webp" title="mechanical 2" data-gallery="portfolio-gallery-mechanical"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-agriculture">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/agriculture_img2.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>agriculture 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/agriculture_img2.webp" title="agriculture 2"
+                    data-gallery="portfolio-gallery-agriculture" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-scince">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/science_img2.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>scince 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/science_img2.webp" title="agriculture 2"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-it">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/it_img3.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>it 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/it_img3.webp" title="it 3" data-gallery="portfolio-gallery-it"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-mechanical">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/img17.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>mechanical 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/img17.webp" title="mechanical 3" data-gallery="portfolio-gallery-mechanical"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-agriculture">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/agriculture_img3.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>agriculture 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/agriculture_img3.webp" title="agriculture 2"
+                    data-gallery="portfolio-gallery-agriculture" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-scince">
+              <div class="portfolio-content h-100">
+                <img src="./image/projects/science_img3.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>scince 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="./image/projects/science_img3.webp" title="agriculture 3"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="./project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+          </div><!-- End Projects Container -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Projects Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>JISCE IDEA-Lab</h3>
+              <p>
+                Block A, Phase III,
+                Kalyani, Nadia - 741235 West Bengal<br>
+                <strong>Phone:</strong> 033 2582 2138<br>
+                <strong>Admission:</strong>033 2580 8640 / 033 2580 8560 / 9432011490 / 8697743363<br>
+                <strong>Email:</strong>info.jiscollege@jisgroup.org<br>
+                <strong>Website:</strong> www.jiscollege.ac.in<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About us</a></li>
+              <li><a href="./patientproject.html">Patient Projects</a></li>
+              <li><a href="./gallery.html">Project Gallery</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+          </div><!-- End footer links column-->
 
 
-            <div class="col-lg-2 col-md-3 footer-links">
+          <div class="col-lg-2 col-md-3 footer-links">
 
-            </div><!-- End footer links column-->
+          </div><!-- End footer links column-->
 
-            <div class="col-lg-2 col-md-3 footer-links">
+          <div class="col-lg-2 col-md-3 footer-links">
 
-            </div><!-- End footer links column-->
+          </div><!-- End footer links column-->
 
-          </div>
         </div>
       </div>
+    </div>
 
-      <div class="footer-legal text-center position-relative">
-        <div class="container">
-          <div class="copyright">
-            &copy; Copyright <strong><span>JISCE IDEA-LAb</span></strong>. All Rights Reserved
-          </div>
-
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>JISCE IDEA-LAb</span></strong>. All Rights Reserved
         </div>
+
       </div>
+    </div>
 
-    </footer>
-    <!-- End Footer -->
+  </footer>
+  <!-- End Footer -->
 
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-    <div id="preloader"></div>
+  <div id="preloader"></div>
 
-    <!-- Vendor JS Files -->
-    
+  <!-- Vendor JS Files -->
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
